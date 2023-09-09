@@ -2,7 +2,7 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 const Api = axios.create({
-    baseURL: 'https://desa-api.appdev.my.id',
+    baseURL: 'http://localhost:8000',
 
     headers: {
         Accept: 'application/json',
