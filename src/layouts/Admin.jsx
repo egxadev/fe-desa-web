@@ -3,8 +3,9 @@ import '../assets/admin/css/custom.css';
 import '../assets/admin/js/bootstrap.bundle.min.js';
 import Sidebar from '../components/admin/Sidebar';
 import Navbar from '../components/admin/Navbar';
+import PropTypes from 'prop-types';
 
-export default function admin({ children }) {
+export default function Admin({ children }) {
     return (
         <>
             <Navbar />
@@ -30,3 +31,7 @@ export default function admin({ children }) {
         </>
     );
 }
+
+Admin.propTypes = {
+    children: PropTypes.element,
+};

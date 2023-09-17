@@ -1,7 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/js/all.js';
+import PropTypes from 'prop-types';
 
-export default function auth({ children }) {
+export default function Auth({ children }) {
     return (
         <div
             style={{
@@ -20,3 +21,7 @@ export default function auth({ children }) {
         </div>
     );
 }
+
+Auth.propTypes = {
+    children: PropTypes.element,
+};

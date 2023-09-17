@@ -1,4 +1,3 @@
-//import cookie
 import Cookies from 'js-cookie';
 
 export default function hasAnyPermission(permissions) {

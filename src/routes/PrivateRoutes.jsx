@@ -1,5 +1,6 @@
 import Cookies from 'js-cookie';
 import { Navigate } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 function PrivateRoutes({ children }) {
     const token = Cookies.get('token');
@@ -10,5 +11,9 @@ function PrivateRoutes({ children }) {
 
     return children;
 }
+
+PrivateRoutes.propTypes = {
+    children: PropTypes.element,
+};
 
 export default PrivateRoutes;

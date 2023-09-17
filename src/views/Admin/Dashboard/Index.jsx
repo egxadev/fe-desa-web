@@ -40,7 +40,7 @@ export default function Dashboard() {
                                 </div>
                                 <div className='card-footer d-flex align-items-center justify-content-between'>
                                     <Link
-                                        class='small text-white stretched-link'
+                                        className='small text-white stretched-link'
                                         to='/admin/categories'
                                     >
                                         View Details
@@ -58,7 +58,7 @@ export default function Dashboard() {
                                 </div>
                                 <div className='card-footer d-flex align-items-center justify-content-between'>
                                     <Link
-                                        class='small text-white stretched-link'
+                                        className='small text-white stretched-link'
                                         to='/admin/posts'
                                     >
                                         View Details
@@ -76,7 +76,7 @@ export default function Dashboard() {
                                 </div>
                                 <div className='card-footer d-flex align-items-center justify-content-between'>
                                     <Link
-                                        class='small text-white stretched-link'
+                                        className='small text-white stretched-link'
                                         to='/admin/products'
                                     >
                                         View Details
@@ -94,7 +94,7 @@ export default function Dashboard() {
                                 </div>
                                 <div className='card-footer d-flex align-items-center justify-content-between'>
                                     <Link
-                                        class='small text-white stretched-link'
+                                        className='small text-white stretched-link'
                                         to='/admin/aparaturs'
                                     >
                                         View Details

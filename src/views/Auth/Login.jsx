@@ -18,8 +18,6 @@ export default function Login() {
     const login = async (e) => {
         e.preventDefault();
 
-        console.log(email, password);
-
         await Api.post('/api/login', {
             email,
             password,
